@@ -23,9 +23,9 @@ hist(enade14$nu_idade, col="blue", main = "Histograma da distribuicao das idades
 
 ```
 
- -os candidatos entre 20 até 25 anos são os que mais fazem enade e quando mais velho são os candidatos, menor é a quantidade de participante do enade.
+ - Os candidatos entre 20 até 25 anos são os que mais fazem Enade e quando mais velhos são os candidatos, menor é a quantidade de participantes do Enade.
 
-2) Monte uma tabela exibindo as porcentagens e os valores absolutos das proporções de alunos por COR/RAÇA. O descobrimos sobre isso?
+2) Monte uma tabela exibindo as porcentagens e os valores absolutos das proporções de alunos por COR/RAÇA. O que descobrimos sobre isso?
 
 ```{r}
 
@@ -40,7 +40,7 @@ enade14$cor_raca[enade14$cor_raca == "e"] <- "Indigena"
 freq(enade14$cor_raca, plot=F)
 
 ```
- -Descobrimos que o menor número de alunos do enade é de cor/raça: Indigena e o maior é de cor/raça: Branco.
+ - Descobrimos que o menor número de alunos do enade é de cor/raça: Indigena e o maior é de cor/raça: Branco.
 3) Apresente a proporção de alunos casados e solteiros. Atenção, queremos apenas CASADOS e SOLTEIROS. Exclua de sua análise os alunos que tiverem outro tipo de estado civil.
 ```{r}
 
@@ -67,8 +67,8 @@ library(descr)
 
 hist(enade14$nt_ger, col = "green", main = "Histograma da Nota geral dos alunos no Enade", xlab="Notas", ylab="Densidade",col.main="darkgray")
 ```
-O gráfico mais adequado é o histograma, pois fornece clareza nos resultados da nota geral com a dimensão de alunos.
-Em geral os alunos tem um mau desempenho, são poucos os alunos que tiraram notas acima de 600.
+- O gráfico mais adequado é o histograma, pois fornece clareza nos resultados da nota geral com a dimensão de alunos.
+Em geral os alunos têm um mau desempenho, são poucos os alunos que tiraram notas acima de 600.
 
 5) Crie uma variável binária chamada PUBLICA. Nessa variável, você deve marcar 1 se a universidade em que o aluno estudou foi pública e 0 se foi privada. ATENÇÃO: existe uma variável com a categoria administrativa da IES mas ela possui várias subclassificações. É preciso que você crie outra variável com as categorias corretas.
 
@@ -128,14 +128,13 @@ print(mean(enade14[enade14$PUBLICA == 0,]$nt_ger, na.rm = T)) # Nota geral das f
 8) BÔNUS: Existe um teste estatístico para verificar se a média da nota geral desta amostra dos alunos que fizeram ENADE pode ser inferida para toda a população? Faça o teste e apresente os resultados. Qual é o intervalo de confiança do teste?
 ```{r}
 
-
-
-
-
-
+Em construção..
 
 ```
 9) BÔNUS: Existe um teste estatístico para verificar se a diferença entre as notas dos alunos das universidades públicas e dos alunos das universidades privadas é estatisticamente significante? Faça o teste e apresente os resultados.
+ 
+ 
+Em construção... 
 
 
 
