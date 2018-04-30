@@ -123,7 +123,7 @@ print(mean(enade14[enade14$PUBLICA == 1,]$nt_ger, na.rm = T)) # Nota geral das f
 print(mean(enade14[enade14$PUBLICA == 0,]$nt_ger, na.rm = T)) # Nota geral das faculdades privadas
 
 ```
-- Comprova que a nota dos alunos de faculdades públicas é levemente maior que a dos alunos das faculdades privada.
+- Comprova que a nota dos alunos de faculdades públicas é levemente maior que a dos alunos das faculdades privadas.
 
 8) BÔNUS: Existe um teste estatístico para verificar se a média da nota geral desta amostra dos alunos que fizeram ENADE pode ser inferida para toda a população? Faça o teste e apresente os resultados. Qual é o intervalo de confiança do teste?
 ```{r}
@@ -133,9 +133,9 @@ Em construção..
 ```
 9) BÔNUS: Existe um teste estatístico para verificar se a diferença entre as notas dos alunos das universidades públicas e dos alunos das universidades privadas é estatisticamente significante? Faça o teste e apresente os resultados.
  
- 
+ ```{r}
 Em construção... 
-
+```
 
 
 
